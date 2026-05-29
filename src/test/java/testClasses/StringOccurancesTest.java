@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 import org.testng.annotations.Test;
 
-public class StringOccurances {
+public class StringOccurancesTest {
 	
 
 @Test
