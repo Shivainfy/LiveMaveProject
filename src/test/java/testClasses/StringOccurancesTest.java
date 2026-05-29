@@ -23,6 +23,7 @@ public class StringOccurancesTest {
 			}	
 		}
 		System.out.println(chararray);
+		System.out.println("-----able to execute script from jenkins--------");
 	}
 
 }
