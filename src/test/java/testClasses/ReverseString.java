@@ -1,5 +1,6 @@
 package testClasses;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ReverseString {
@@ -13,6 +14,8 @@ public class ReverseString {
 		}
 		
 		System.out.println(rev);
-	}
+		
+		Assert.assertEquals(true, false);;	
+		}
 
 }
