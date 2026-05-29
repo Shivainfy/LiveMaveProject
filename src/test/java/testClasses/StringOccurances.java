@@ -2,9 +2,13 @@ package testClasses;
 
 import java.util.HashMap;
 
-public class StringOccurances {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class StringOccurances {
+	
+
+@Test
+	public void PrintingStringChar() {
 		String str="Selenium";
 		
 		char ch[]=str.toCharArray();
@@ -16,8 +20,7 @@ public class StringOccurances {
 				chararray.put(c, chararray.get(c)+1);
 			}else {
 				chararray.put(c, 1);
-			}
-			
+			}	
 		}
 		System.out.println(chararray);
 	}
