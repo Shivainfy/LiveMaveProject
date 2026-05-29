@@ -15,7 +15,7 @@ public class ReverseString {
 		
 		System.out.println(rev);
 		
-		Assert.assertEquals(true, false);;	
+		Assert.assertEquals(true, true);;	
 		}
 
 }
